@@ -1,0 +1,1 @@
+document.getElementById("welcome").innerHTML=`<h1 class="color">Welcome ${localStorage.getItem("currentUser")}</h1>`

@@ -1,0 +1,25 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <title>SmartLogin</title>
+</head>
+
+<body>
+    <div class="login py-5 d-flex justify-content-center">
+        <div class="col-sm-8 text-center bshadow p-5">
+            <h1 class="color fs-1 pb-2">Smart Login System</h1>
+            <input class="w-100 mb-3 py-2 form-control" type="email" placeholder="Enter your email" id="email">
+            <input class="w-100 mb-4 py-2 form-control" type="password" placeholder="Enter your password" id="password">
+            <p class="text-danger invisible" id="error">incorrect email or password</p>
+            <p class="text-danger invisible" id="empty">All inputs is required</p>
+            <button class="btn" onclick="login()">Login</button>
+            <p class="text-white pt-3">Don't have an account? <span class="fw-medium link"><a class="text-decoration-none text-white" href="signup.html">Sign Up</a></span></p>
+        </div>
+    </div>
+</body>
+<script src="js/login.js"></script>
+
+</html>

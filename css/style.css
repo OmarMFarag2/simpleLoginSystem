@@ -1,0 +1,53 @@
+body{
+    background-color: #2b343e;
+}
+.color{
+    color: rgb(23, 162, 184);
+}
+.bshadow{
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+input::placeholder{
+    color: rgb(160, 160, 160) !important;
+}
+.form-control{
+    border: solid white 1px;
+    background-color:transparent;
+    color: rgb(255, 255, 255);
+}
+.form-control:focus{
+    background-color:  #2b343e;
+    color: rgb(255, 255, 255);
+    box-shadow: none;
+}
+.btn{
+    background-color: transparent;
+    border: solid 1px rgb(23, 162, 184);
+    color: rgb(23, 162, 184);
+    width: 100%;
+}
+.btn:hover,:not(.btn-check)+.btn:active{
+    background-color: rgb(23, 162, 184);;
+    border: solid 1px rgb(23, 162, 184);
+    color:white;
+}
+.visible{
+    display: inline-block;
+}
+.invisible{
+    display: none;
+}
+.button{
+    border: 1px solid #ffc107;
+    background-color: transparent;
+    border-radius: 5px;
+    color: rgb(160, 160, 160);
+    transition: all 0.3s;
+}
+.button:hover{
+    background-color: #ffc107;
+    color: white
+}
+.link:hover{
+    text-decoration: underline;
+}
