@@ -12,13 +12,11 @@ function login() {
     for (let i = 0; i < usersArray.length; i++) {
         if (email.value == usersArray[i].email &&
             password.value == usersArray[i].password) {
-            localStorage.setItem("currentUser",usersArray[i].name)
+            localStorage.setItem("currentUser", usersArray[i].name)
             window.location.href = "home.html"
             return
         }
-        else {
-            document.getElementById("empty").classList.replace("visible", "invisible");
-            document.getElementById("error").classList.replace("invisible", "visible");
-        }
     }
+    document.getElementById("empty").classList.replace("visible", "invisible");
+    document.getElementById("error").classList.replace("invisible", "visible");
 }
